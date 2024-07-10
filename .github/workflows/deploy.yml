@@ -20,7 +20,7 @@ jobs:
       - run: pnpm build
 
       - name: Build
-        run: pnpm build -- --base /presentation-a-different-kind-of-serverless/
+        run: pnpm build --base /presentation-a-different-kind-of-serverless/
 
       - uses: actions/configure-pages@v4
 
